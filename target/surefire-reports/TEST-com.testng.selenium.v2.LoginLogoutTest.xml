@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.testng.selenium.v2.LoginLogoutTest" time="19.443" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="com.testng.selenium.v2.LoginLogoutTest" time="39.593" errors="0" skipped="0">
   <properties>
     <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\kshitij.1\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf15994261038095382276.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\kshitij.1\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf9968578415561899051.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python311\Scripts\;C:\Python311\;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Maven\apache-maven-3.9.1\bin;C:\Users\kshitij.1\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Nmap;C:\Users\kshitij.1\AppData\Roaming\npm;C:\Program Files\terraform_1.4.5_windows_amd64;;C:\Users\kshitij.1\AppData\Local\Programs\Microsoft VS Code\bin;."/>
     <property name="jdk.debug" value="release"/>
@@ -57,10 +57,11 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="m2e.build.project.data.socket.port" value="14611"/>
+    <property name="m2e.build.project.data.socket.port" value="14559"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.testng.selenium.v2.LoginLogoutTest" name="loginTest" time="5.558"/>
-  <testcase classname="com.testng.selenium.v2.LoginLogoutTest" name="logoutTest" time="5.173"/>
-  <testcase classname="com.testng.selenium.v2.LoginLogoutTest" name="userregister" time="8.712"/>
+  <testcase classname="com.testng.selenium.v2.LoginLogoutTest" name="loginTest" time="6.595"/>
+  <testcase classname="com.testng.selenium.v2.LoginLogoutTest" name="userregister" time="11.749"/>
+  <testcase classname="com.testng.selenium.v2.LoginLogoutTest" name="testUserDetailsModification" time="11.037"/>
+  <testcase classname="com.testng.selenium.v2.LoginLogoutTest" name="logoutTest" time="10.212"/>
 </testsuite>

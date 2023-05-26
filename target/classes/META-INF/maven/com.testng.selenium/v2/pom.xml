@@ -12,7 +12,13 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  
+  
+  
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
   </properties>
+
 
   <dependencies>
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -37,5 +43,8 @@
   			<version>2.20</version>
   		</plugin>
   	</plugins>
+  	
+  	
+  	
   </build>
 </project>

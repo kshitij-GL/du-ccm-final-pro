@@ -5,8 +5,9 @@
     <classes>
       <class name="com.testng.selenium.v2.LoginLogoutTest">
         <methods>
-          <include name="loginTest"/>
+          <include name="testUserDetailsModification"/>
           <include name="logoutTest"/>
+          <include name="terminatetest"/>
           <include name="setup"/>
           <include name="userregister"/>
         </methods>

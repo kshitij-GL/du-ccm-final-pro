@@ -1,196 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-11T17:12:31 IST" name="Default suite" finished-at="2023-05-11T17:12:32 IST" duration-ms="296">
+  <suite started-at="2023-05-26T12:53:25 IST" name="Default suite" finished-at="2023-05-26T12:54:15 IST" duration-ms="50066">
     <groups>
     </groups>
-    <test started-at="2023-05-11T17:12:31 IST" name="Default test" finished-at="2023-05-11T17:12:32 IST" duration-ms="296">
+    <test started-at="2023-05-26T12:53:25 IST" name="Default test" finished-at="2023-05-26T12:54:15 IST" duration-ms="50066">
       <class name="com.testng.selenium.v2.LoginLogoutTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.selenium.v2.LoginLogoutTest@6069db50]" started-at="2023-05-11T17:12:31 IST" name="setup" finished-at="2023-05-11T17:12:32 IST" duration-ms="141" status="FAIL">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable must exist: C:\Users\kshitij.1\eclipse-workspace\v2\workspace\ccm_du_test_pipeline\src\main\driver\chromedriver.exe]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable must exist: C:\Users\kshitij.1\eclipse-workspace\v2\workspace\ccm_du_test_pipeline\src\main\driver\chromedriver.exe
-at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
-at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:38)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:231)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
-at org.openqa.selenium.chrome.ChromeDriverService.createServiceWithConfig(ChromeDriverService.java:141)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
-at com.testng.selenium.v2.LoginLogoutTest.setup(LoginLogoutTest.java:25)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:643)
-at org.testng.TestRunner.beforeRun(TestRunner.java:632)
-at org.testng.TestRunner.run(TestRunner.java:594)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.selenium.v2.LoginLogoutTest@59662a0b]" started-at="2023-05-26T12:53:25 IST" name="setup" finished-at="2023-05-26T12:53:35 IST" duration-ms="9845" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:1, instance:com.testng.selenium.v2.LoginLogoutTest@6069db50]" started-at="2023-05-11T17:12:32 IST" name="loginTest" finished-at="2023-05-11T17:12:32 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable must exist: C:\Users\kshitij.1\eclipse-workspace\v2\workspace\ccm_du_test_pipeline\src\main\driver\chromedriver.exe]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable must exist: C:\Users\kshitij.1\eclipse-workspace\v2\workspace\ccm_du_test_pipeline\src\main\driver\chromedriver.exe
-at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
-at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:38)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:231)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
-at org.openqa.selenium.chrome.ChromeDriverService.createServiceWithConfig(ChromeDriverService.java:141)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
-at com.testng.selenium.v2.LoginLogoutTest.setup(LoginLogoutTest.java:25)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:643)
-at org.testng.TestRunner.beforeRun(TestRunner.java:632)
-at org.testng.TestRunner.run(TestRunner.java:594)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+        <test-method signature="loginTest()[pri:1, instance:com.testng.selenium.v2.LoginLogoutTest@59662a0b]" started-at="2023-05-26T12:53:35 IST" name="loginTest" finished-at="2023-05-26T12:53:42 IST" duration-ms="6654" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="logoutTest()[pri:2, instance:com.testng.selenium.v2.LoginLogoutTest@6069db50]" started-at="2023-05-11T17:12:32 IST" name="logoutTest" finished-at="2023-05-11T17:12:32 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable must exist: C:\Users\kshitij.1\eclipse-workspace\v2\workspace\ccm_du_test_pipeline\src\main\driver\chromedriver.exe]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable must exist: C:\Users\kshitij.1\eclipse-workspace\v2\workspace\ccm_du_test_pipeline\src\main\driver\chromedriver.exe
-at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
-at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:38)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:231)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
-at org.openqa.selenium.chrome.ChromeDriverService.createServiceWithConfig(ChromeDriverService.java:141)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
-at com.testng.selenium.v2.LoginLogoutTest.setup(LoginLogoutTest.java:25)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:643)
-at org.testng.TestRunner.beforeRun(TestRunner.java:632)
-at org.testng.TestRunner.run(TestRunner.java:594)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutTest -->
-        <test-method signature="userregister()[pri:3, instance:com.testng.selenium.v2.LoginLogoutTest@6069db50]" started-at="2023-05-11T17:12:32 IST" name="userregister" finished-at="2023-05-11T17:12:32 IST" duration-ms="2" status="SKIP">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable must exist: C:\Users\kshitij.1\eclipse-workspace\v2\workspace\ccm_du_test_pipeline\src\main\driver\chromedriver.exe]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable must exist: C:\Users\kshitij.1\eclipse-workspace\v2\workspace\ccm_du_test_pipeline\src\main\driver\chromedriver.exe
-at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
-at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:38)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:231)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
-at org.openqa.selenium.chrome.ChromeDriverService.createServiceWithConfig(ChromeDriverService.java:141)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
-at com.testng.selenium.v2.LoginLogoutTest.setup(LoginLogoutTest.java:25)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:643)
-at org.testng.TestRunner.beforeRun(TestRunner.java:632)
-at org.testng.TestRunner.run(TestRunner.java:594)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+        <test-method signature="userregister()[pri:2, instance:com.testng.selenium.v2.LoginLogoutTest@59662a0b]" started-at="2023-05-26T12:53:42 IST" name="userregister" finished-at="2023-05-26T12:53:54 IST" duration-ms="11854" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userregister -->
+        <test-method signature="testUserDetailsModification()[pri:3, instance:com.testng.selenium.v2.LoginLogoutTest@59662a0b]" started-at="2023-05-26T12:53:54 IST" name="testUserDetailsModification" finished-at="2023-05-26T12:54:05 IST" duration-ms="11230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserDetailsModification -->
+        <test-method signature="logoutTest()[pri:4, instance:com.testng.selenium.v2.LoginLogoutTest@59662a0b]" started-at="2023-05-26T12:54:05 IST" name="logoutTest" finished-at="2023-05-26T12:54:15 IST" duration-ms="10242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="terminatetest()[pri:0, instance:com.testng.selenium.v2.LoginLogoutTest@59662a0b]" started-at="2023-05-26T12:54:15 IST" name="terminatetest" finished-at="2023-05-26T12:54:15 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminatetest -->
       </class> <!-- com.testng.selenium.v2.LoginLogoutTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
