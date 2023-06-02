@@ -46,7 +46,7 @@ public class LoginLogoutTest {
         driver.findElement(By.name("password")).sendKeys(password);
         Thread.sleep(5000);
 
-       driver.findElement(By.xpath("/html/body/div/div/div[1]/form/button")).click();
+       driver.findElement(By.xpath("/html/body/div/div/div[1]/form/button[1]")).click();
       
     }
 
